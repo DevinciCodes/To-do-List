@@ -22,13 +22,13 @@ const itemsSchema = {
 const Item = mongoose.model('Item', itemsSchema);
 
 const item1 = new Item({
-  name: "Food"
+  name: "Go to grocery store."
 });
 const item2 = new Item({
-  name: "Toys"
+  name: "Get kids new toys"
 });
 const item3 = new Item({
-  name: "Drugs"
+  name: "Pick up precription Rx."
 });
 
 const defaultItems = [item1, item2, item3];
